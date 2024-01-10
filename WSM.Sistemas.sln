@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D1632AE-AB4D-4945-AEA6-BBE42AE56464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{90495879-7C2F-44F8-A8C1-2FBB050E57D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{8FFF3511-6C2E-4A7A-9C64-6DDA5736D8D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buildingBlocks", "buildingBlocks", "{A10EBC99-9C04-4144-8854-F4D7380DDEB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identidade", "Identidade", "{95381F25-EC2A-49D1-83A0-44B4F8B3D0B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSM.Autenticar.API", "..\..\AplicacaoDistribuida\Microservice_aspnetCore_Docker\src\services\WSM.Autenticar.API\WSM.Autenticar.API.csproj", "{699492A4-D898-45B1-B560-E06A45729AB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699492A4-D898-45B1-B560-E06A45729AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699492A4-D898-45B1-B560-E06A45729AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699492A4-D898-45B1-B560-E06A45729AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699492A4-D898-45B1-B560-E06A45729AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90495879-7C2F-44F8-A8C1-2FBB050E57D1} = {0D1632AE-AB4D-4945-AEA6-BBE42AE56464}
+		{8FFF3511-6C2E-4A7A-9C64-6DDA5736D8D1} = {0D1632AE-AB4D-4945-AEA6-BBE42AE56464}
+		{A10EBC99-9C04-4144-8854-F4D7380DDEB7} = {0D1632AE-AB4D-4945-AEA6-BBE42AE56464}
+		{95381F25-EC2A-49D1-83A0-44B4F8B3D0B0} = {90495879-7C2F-44F8-A8C1-2FBB050E57D1}
+		{699492A4-D898-45B1-B560-E06A45729AB7} = {95381F25-EC2A-49D1-83A0-44B4F8B3D0B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A930B7B6-F9CB-4427-BB66-89F7CC145CE5}
+	EndGlobalSection
+EndGlobal
